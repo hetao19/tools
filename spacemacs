@@ -2,6 +2,12 @@
 ;; This file is loaded by Spacemacs at startup.
 ;; It must be stored in your home directory.
 
+;; Godef jump key binding
+ (local-set-key (kbd "M-,") 'godef-jump)
+ (local-set-key (kbd "M-.") 'pop-tag-mark)
+
+
+
 (defun dotspacemacs/layers ()
   "Configuration Layers declaration.
 You should not put any user code in this function besides modifying the variable
